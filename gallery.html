@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | West Ham United</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="topnav">
+    <a href="index.html">Home</a>
+
+    <div id="myLinks">
+        <a href="about.html">About Me</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="blog.html">Football Basics</a>
+    </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<!-- Page Content -->
+<section>
+    <h1>West Ham United Gallery</h1>
+    <hr>
+    <p>
+        This gallery showcases some of my favourite moments, players, and memories of West Ham United.
+        The images represent the passion, atmosphere, and history of the club.
+    </p>
+
+    <div class="gallery-grid">
+        <!-- Replace image file names with your own -->
+        <img src="assets/images/westham1.jpg" alt="West Ham players celebrating a goal">
+        <img src="assets/images/westham2.jpg" alt="stadium.jpg.png">
+        <img src="assets/images/westham3.jpg" alt="West Ham fans in the stadium">
+        <img src="assets/images/westham4.jpg" alt="Europa Conference League trophy celebration">
+        <img src="assets/images/westham5.jpg" alt="West Ham team lineup">
+        <img src="assets/images/westham6.jpg" alt="West Ham flag and colours">
+		<img src="https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg" alt="West Ham badge">
+
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Hunayn-Abbas</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    const links = document.getElementById("myLinks");
+    links.style.display = (links.style.display === "block") ? "none" : "block";
+}
+</script>
+
+</body>
+</html>
+
+
+
