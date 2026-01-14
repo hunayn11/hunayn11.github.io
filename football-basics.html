@@ -4,89 +4,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Football Basics | West Ham United</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="../untitled folder/wd-roehampton.css">
-
-    <!-- FONT AWESOME (menu icon) -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Football Basics</title>
+    <link rel="stylesheet" href="wd-roehampton.css">
 </head>
-
 <body>
 
-<!-- NAVIGATION -->
-<div class="topnav">
-    <a href="../untitled folder/index.html">Home</a>
-    <div id="myLinks">
-        <a href="../untitled folder/aboutme.html">About Me</a>
-        <a href="../untitled folder/gallery.html">Gallery</a>
-        <a href="../untitled folder/football-basics.html" class="active">Football Basics</a>
-    </div>
-    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-        <i class="fa fa-bars"></i>
-    </a>
-</div>
+    <!-- Navigation bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about-me.html">About Me</a>
+        <a href="football-basics.html">Football Basics</a>
+    </nav>
 
-<!-- CONTENT -->
-<section class="content">
+    <!-- Header section -->
+    <header>
+        <h1>Football Basics</h1>
+        <!-- Safe image -->
+        <img src="assets/westham_fans_photo.jpg" alt="West Ham fans cheering at the stadium">
+    </header>
 
-    <h1>Football Basics</h1>
-    <p>
-        Football is a sport played between two teams of eleven players.
-        The aim of the game is to score more goals than the opposing team.
-    </p>
+    <!-- Main content -->
+    <main>
+        <section>
+            <h2>Rules of Football</h2>
+            <p>Football is played between two teams of eleven players each, aiming to score goals...</p>
+        </section>
 
-    <div class="info-block">
-        <img <img src="assets/football.jpg" alt="Football">
-        <div>
-            <h2>How the Game Works</h2>
-            <p>
-                A football match lasts 90 minutes, split into two halves.
-                Players mainly use their feet, except the goalkeeper.
-            </p>
-        </div>
-    </div>
+        <section>
+            <h2>Positions</h2>
+            <p>Each team has a goalkeeper, defenders, midfielders, and forwards...</p>
+        </section>
 
-    
-        <img src="../untitled folder/westham.jpg.png" alt="West Ham football pitch">
-        <div>
-            <h2>Why Football Is Popular</h2>
-            <p>
-                Football is simple to understand, exciting to watch, and played
-                all over the world by people of all ages.
-            </p>
-        </div>
-    </div>
+        <section>
+            <h2>Basic Skills</h2>
+            <p>Passing, dribbling, shooting, and tackling are the essential skills...</p>
+        </section>
 
- 
-      <img src="assets/westham_fans_photo.jpg" alt="West Ham fans cheering at the stadium">
-
-        <div>
-            <h2>Why I Support West Ham</h2>
-            <p>
-                West Ham United has a strong history, passionate supporters,
-                and an incredible matchday atmosphere at the London Stadium.
-            </p>
-        </div>
-    </div>
-
-</section>
-
-<footer>
-    <p>&copy; 2025 Hunayn-Abbas</p>
-</footer>
-
-<script>
-function toggleMenu() {
-    const links = document.getElementById("myLinks");
-    links.style.display =
-        (links.style.display === "block") ? "none" : "block";
-}
-</script>
+        <section>
+            <h2>Video Example</h2>
+            <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/VIDEO_ID" 
+                    title="Football Basics Video" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </section>
+    </main>
 
 </body>
-</html>
 </html>
