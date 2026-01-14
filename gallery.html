@@ -1,46 +1,60 @@
+<link rel="stylesheet" href="wd-roehampton.css">
 
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery | West Ham United</title>
-    <link rel="stylesheet" href="wd-roehampton.css">
-">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
 
 <!-- Navigation -->
 <div class="topnav">
     <a href="index.html">Home</a>
+
     <div id="myLinks">
         <a href="about.html">About Me</a>
         <a href="gallery.html" class="active">Gallery</a>
         <a href="blog.html">Football Basics</a>
     </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 
+<!-- Page Content -->
 <section>
     <h1>West Ham United Gallery</h1>
+    <hr>
     <p>
-        This gallery showcases some of my favourite West Ham United images.
+        This gallery showcases some of my favourite moments, players, and memories of West Ham United.
+        The images represent the passion, atmosphere, and history of the club.
     </p>
 
-    <!-- GALLERY -->
     <div class="gallery-grid">
-<img src="assets/westham_fans_photo.jpg" alt="West Ham fans cheering at the stadium">
+      <img src="assets/westham_fans_photo.jpg" alt="West Ham fans cheering at the stadium">
 <img src="assets/westham_stadium.jpg" alt="West Ham Stadium">
 <img src="assets/football.jpg" alt="Football on the pitch">
 <img src="assets/unsplash.jpg" alt="Football action photo">
 
-</div>
 
+    </div>
 </section>
 
 <footer>
     <p>&copy; 2025 Hunayn-Abbas</p>
 </footer>
+
+<script>
+function toggleMenu() {
+    const links = document.getElementById("myLinks");
+    links.style.display = (links.style.display === "block") ? "none" : "block";
+}
+</script>
 
 </body>
 </html>
